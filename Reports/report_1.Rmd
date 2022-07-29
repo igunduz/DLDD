@@ -1,8 +1,14 @@
 ---
 title: "Report I : Learning to Extend Molecular Scaffolds with Structural Motifs"
-author: "Irem Begüm Gündüz"
+author: "Irem Begüm Gündüz - 7026821"
 Date: "`r Sys.Date()`"
-output: pdf_document
+output:
+  pdf_document:
+    latex_engine: xelatex
+    toc: yes
+bibliography: /Users/ibgun/Documents/GitHub/DLDD/references3.bib
+biblio-style: apalike
+link-citations: no
 ---
 
 ```{r setup, include=FALSE}
