@@ -1,5 +1,5 @@
 ---
-title: "Report III : Torsional Geometric Generation of Molecular 3D Conformer Ensembles (GEOMOL)"
+title: "Report II : Torsional Geometric Generation of Molecular 3D Conformer Ensembles (GEOMOL)"
 author: "Irem Begüm Gündüz - 7026821"
 Date: "`r Sys.Date()`"
 output:
