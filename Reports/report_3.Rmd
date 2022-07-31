@@ -21,11 +21,12 @@ A potential in silico regularly utilized in the drug development process is virt
 
 Current approaches are used to establish three-dimensional conformations of molecules separated into two categories: physics-based simulations and, data-driven supervised models. As physics-based simulations, computational docking and molecular simulation are constrained by scoring functions and force fields, whereas machine learning methods' performance depends on the availability of data. Methods of supervised learning may be preferred because of the advantages listed below: In theory, a neural network can learn any function. Supervised prediction is a significant upgrade over physics-based techniques in terms of speed and performance. For example, neural networks can learn how to map molecules based on their physical properties. 
 
-Can three dimensional information from numerous conformers enhance molecular properties that predicted by deep learning methods is the main research question that this work seeks to answer. Multiple deep learning models have been trained to address this question by incorporating multiple conformer inputs and conformer attention to key architectures such as *ChemProp* and *Schnet*.
+Can three dimensional information from numerous conformers enhance molecular properties that predicted by deep learning methods is the main research question that this work seeks to answer. Multiple deep learning models have been trained to address this question by incorporating multiple conformer inputs and conformer attention to key architectures such as *ChemProp* and *Schnet*. @Axelrod2020
 
 ```{r approch,out.width = "100%",echo = FALSE,fig.align='center',fig.cap="Overwiew of the methdology."}
 knitr::include_graphics("report3.PNG")
 ```
 
+## Discussion
 
 ## References
