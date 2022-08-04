@@ -6,7 +6,7 @@ output:
   pdf_document:
     latex_engine: xelatex
     toc: yes
-bibliography: /Users/ibgun/Documents/GitHub/DLDD/references3.bib
+bibliography: /Users/ibgun/Documents/GitHub/DLDD/references1.bib
 biblio-style: apalike
 link-citations: no
 ---
@@ -15,22 +15,15 @@ link-citations: no
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## Overview of the Approach 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
+```{r approch,out.width = "100%",echo = FALSE,fig.align='center',fig.cap="Overwiew of the methdology."}
+knitr::include_graphics("report1.PNG")
 ```
 
-## Including Plots
+## Discussion
 
-You can also embed plots, for example:
+Existed methodologies are limited with scaffold and, this study is proven to overcome the limitations of scaffold predictions which requires a known existed scaffold.
 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+## References
