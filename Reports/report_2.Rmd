@@ -18,9 +18,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Overview of the Approach 
 
-Recent breakthroughs in deep learning allow us to predict protein 3-Dimensional structure from the protein linear sequence using specifically designed tools, such as *AlphaFold2* with great accuracy. However, the prediction of 3-D molecule structures with great accuracy remains still as an open problem. 
+Recent breakthroughs in deep learning allow us to predict protein 3-Dimensional structure from the protein linear sequence using specifically designed tools, such as *AlphaFold2* with great accuracy. @Jumper2021 However, the prediction of 3-D molecule structures with great accuracy remains still as an open problem. 
 
-Existing techniques for determining molecular conformations are expensive therefore, predictive models have been developed over the past decade. These approaches, typically divided into two categories: stochastic models, which rely on random fluctuations, and systematic models, which are based on rules. Stochastic methods are traditionally based on molecular dynamics (MD) or Markov chain Monte Carlo (MCMC) techniques, possibly combined with genetic algorithms. They allow extensive exploration of the energy landscape and accurately sample equilibrium structures, but they are extremely slow for large molecules. For a single drug-like molecule, they may require several CPU minutes. 
+Existing techniques for determining molecular conformations are expensive therefore, approaches to computationally determine models molecular conformations have been developed over the past decade. These approaches, typically divided into two categories: stochastic models, which rely on random fluctuations, and systematic models, which are based on rules. Stochastic methods are traditionally based on molecular dynamics (MD) or Markov chain Monte Carlo (MCMC) techniques, possibly combined with genetic algorithms. They allow extensive exploration of the energy landscape and accurately sample equilibrium structures, but they are extremely slow for large molecules. For a single drug-like molecule, they may require several CPU minutes. @Ganea2021
 
 ```{r OLC,out.width = "100%",echo = FALSE,fig.align='center',fig.cap="Overwiew of GEOMOL methdology."}
 knitr::include_graphics("geom1.PNG")
