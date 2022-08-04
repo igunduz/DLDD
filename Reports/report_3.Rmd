@@ -47,10 +47,10 @@ As a result, the study concatenates WHIM characteristics with those produced via
 
 ## Discussion
 
-The experimental results indicate that if one picks the right model, considering 3D information can improve prediction accuracy. However, there is some debate over whether 3D models improve performance or degrade it, but in general, most 3D models aren't actually that beneficial. Some can even have a negative impact on performance. The computational cost of training a single conformer model is usually a better use of resources than training multiple models. Additionally, 3D models are more expensive than 2D models and, the attention-based 4D models are computationally the most intensive models. 
+The experimental results indicate that if one picks the right model, considering 3D information can improve prediction accuracy. However, in general, most 3D models aren't actually that beneficial. Some can even have a negative impact on performance. The computational cost of training a single conformer model is usually a better use of resources than training multiple models. Additionally, 3D models are more expensive than 2D models and, the attention-based 4D models are computationally the most intensive models. 
 
-In summary, a number of 3D-based models are introduced that can predict properties from conformer ensembles. These models can be used to, for example, predict the stability of a molecule. While a single conformer was able to produce a significant improvement over 2D models, multiple conformers did not seem to offer any additional benefits. 
+In summary, a number of 3D-based models are introduced that can predict properties from conformer ensembles. These models can be used to, for example, predict the stability of a molecule. The authors also proved that while a single conformer was able to produce a significant improvement over 2D models, multiple conformers did not seem to offer any additional benefits.
 
-Overall, the paper was useful to compare different models (2D, 3D and, 4D) by also considering multiple conformers versus single conformers. This was experimental research that unlocks the potential of conformers and, the pitfalls of using 3D information for predictions.
+Overall, the paper was useful to compare different models (2D, 3D and, 4D) by also considering multiple conformers versus single conformers. This was experimental research that unlocks the potential of conformers and, shows the pitfalls and benefits of using 3 dimensionals information for predictions.
 
 ## References
